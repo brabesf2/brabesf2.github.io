@@ -312,7 +312,7 @@
     <div class="top-row">
       <div class="polaroid">
         <div class="frame">
-          <img id="photo" src="us.jpg" alt="the two of you"
+          <img id="photo" src="us.png" alt="the two of you"
                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
           <div class="fallback" style="display:none; align-items:center; justify-content:center; height:100%;">
             add a photo named<br>"us.jpg" next to<br>this file
@@ -328,11 +328,11 @@
     </div>
 
     <h1>Oii meu amorr,</h1>
-    <p class="subline">coloquei aqui o tempo até nosso próximo encontro.</p>
+    <p class="subline">contando os dias pra te ver, te amo muito.</p>
 
     <div class="countdown">
       <div class="big" id="daysLeft">--</div>
-      <div class="big-label">days to go</div>
+      <div class="big-label">dias até a próxima vez</div>
     </div>
 
     <div class="stat-row">
@@ -361,7 +361,7 @@
 
     <p class="note">
       todo dia chegando mais perto!
-      <span class="sign">te amo muito</span>
+      <span class="sign">sinto muito sua falta</span>
     </p>
 
   </div>
@@ -389,7 +389,7 @@
     document.getElementById('minsLeft').textContent = String(mins).padStart(2,'0');
     document.getElementById('secsLeft').textContent = String(secs).padStart(2,'0');
     document.getElementById('plane').style.left = pct + '%';
-    document.getElementById('pct').textContent = pct.toFixed(1) + '% of the way there';
+    document.getElementById('pct').textContent = pct.toFixed(1) + '% até lá';
   }
 
   update();
